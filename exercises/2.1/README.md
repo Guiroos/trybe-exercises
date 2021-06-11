@@ -1,0 +1,1 @@
+O exercício do bloco 2 - Git, GitHub e Internet, nos ensinou todo os princípios dos repositórios ( junto de uma dinâmica, que mostra como é ruim trabalhar em um mesmo arquivo sem o GitHub), e depois disso, nos itHub assim como os comandos de git no terminal.
