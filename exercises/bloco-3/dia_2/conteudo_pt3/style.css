@@ -1,0 +1,60 @@
+h1 {
+    font-family: sans-serif;
+    color: white;
+  }
+
+  a {
+    font-family: sans-serif;
+    color: white;
+    font-size: 3em;
+    word-spacing: 50px;
+    line-height: 15;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    color: white;
+  }
+
+  body {
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+  }
+
+  #amarelo{
+    color: black;
+    background-color: yellow;
+    font-size: 4em;
+    line-height: 15;
+    text-decoration:  overline;
+    text-decoration-color: black;
+  }
+
+  #vermelho{
+    color: black;
+    background-color: red;
+    font-size: 4em;
+    line-height: 15;
+    text-decoration:  overline;
+    text-decoration-color: black;
+  }
+
+  #marrom{
+    color: black;
+    background-color: brown;
+    font-size: 4em;
+    line-height: 15;
+    text-decoration:  overline;
+    text-decoration-color: black;
+  }
+
+  #azul{
+    color: black;
+    background-color: lightskyblue;
+    font-size: 4em;
+    line-height: 15;
+    text-decoration:  overline;
+    text-decoration-color: black;
+  }
