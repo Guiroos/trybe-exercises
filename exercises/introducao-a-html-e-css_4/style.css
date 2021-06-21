@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+
+}
+
+h1{
+    font-size: 60px;   
+    text-align: center;
+    text-transform:uppercase; 
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;  
+    width: 20%;  
+}
+
+article{
+    overflow: auto;
+}
+
+.container-facts{
+
+}
+
+.container-facts h2{
+    font-size: 40px;
+}
+
+.main-info-text{
+    width: 50%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.main-info img{
+    width: 40%;
+}
+
