@@ -1,0 +1,31 @@
+#primaria:hover{
+  border: 2px solid blue;
+}
+
+#secundaria:hover{
+  border: 2px solid orange;
+}
+
+#complementar{
+  font-size: larger;
+}
+
+#complementar:hover{
+  border: 2px solid violet;
+}
+
+#escura:hover{
+  border: 2px solid darkred;
+}
+
+#clara:hover{
+  border: 2px solid lightseagreen;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#um, #tres, #cinco{
+  font-style: italic;
+}
