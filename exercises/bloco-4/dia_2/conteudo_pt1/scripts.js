@@ -14,7 +14,7 @@ let pizzas = ["4 Queijos", "Frango com Catupity", "Marguerita", "Calabresa", "So
 pizzas.push ("Bacon", "Portuguesa");
 pizzas.unshift ("Lombinho");
 
-//.puish empurra um valor dentro do array sem ter problema de sobrescrever um outro valor
+//.push empurra um valor dentro do array sem ter problema de sobrescrever um outro valor
 //.unshift adiciona um valor no inicio da string
 //.pop remove o ultimo valor do array
 //.shitt remove o primero valor do array
