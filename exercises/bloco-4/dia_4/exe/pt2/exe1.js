@@ -1,3 +1,5 @@
+//Exercicio 1
+
 function verificarPalindrome (word) {
   for(index in word) {
     if (word[index] != word[(word.length - 1) -index]) {
@@ -7,4 +9,4 @@ function verificarPalindrome (word) {
   return true;
 }
 
-console.log(verificarPalindrome('abacate'));
+console.log(verificarPalindrome('ama'));
