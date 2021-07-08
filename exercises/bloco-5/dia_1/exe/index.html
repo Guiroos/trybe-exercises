@@ -42,24 +42,29 @@
     </main>
     <script>
       
-      function changeTextp () {
+      function changeTextParagraph () {
         let paragraph = document.getElementsByTagName('p')[1];
         paragraph.innerText = 'Sou foda tururu.';
       }
-      changeTextp();
+      changeTextParagraph();
 
       function changeBiggerBox () {
-        let main = document.querySelector('.main-content');
+        let main = document.getElementsByClassName('main-content')[0];
         main.style.background = 'rgb(76,164,109)';
       }
       changeBiggerBox();
 
       function changeSmallerBox () {
-        let main = document.querySelector('.center-content');
-        main.style.background = 'white';
+        let section = document.getElementsByClassName('center-content')[0];
+        section.style.background = 'white';
       }
       changeSmallerBox();
 
+      function titleCorrection () {
+        let title = document.getElementsByClassName('title')[0];
+        title.innerHTML = 'Exercício 5.1 - JavaScript';      
+      }
+      titleCorrection();    
 
 
         /*
