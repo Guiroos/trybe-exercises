@@ -64,9 +64,13 @@
         let title = document.getElementsByClassName('title')[0];
         title.innerHTML = 'Exercício 5.1 - JavaScript';      
       }
-      titleCorrection();    
+      titleCorrection();
 
-
+      function changeUpperCaseParagraph () {
+        let paragraph = document.getElementsByTagName('p')[0];
+        paragraph.innerHTML = paragraph.innerHTML.toUpperCase();        
+      }
+      changeUpperCaseParagraph();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
