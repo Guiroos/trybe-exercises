@@ -71,6 +71,14 @@
         paragraph.innerHTML = paragraph.innerHTML.toUpperCase();        
       }
       changeUpperCaseParagraph();
+
+      function showAllParagraphs () {
+        let paragraphs = document.getElementsByTagName('p');
+        for (let index = 0; index < paragraphs.length; index += 1) {
+        console.log(paragraphs[index].innerHTML);
+        }
+      }
+      showAllParagraphs();
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
