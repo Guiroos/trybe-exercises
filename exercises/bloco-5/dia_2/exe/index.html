@@ -113,8 +113,11 @@
         description[index].classList.add('description');
       }
 
-      let divLeftContent = document.getElementsByClassName('left-content')[0];
+      const divLeftContent = document.getElementsByClassName('left-content')[0];
       mainContent.removeChild(divLeftContent);
+
+      const divRightContent = document.getElementsByClassName('right-content')[0];
+      divRightContent.style.marginRight = 'auto';
 
       
     </script>
