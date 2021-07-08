@@ -85,6 +85,15 @@
       smallImage.src = 'https://picsum.photos/200';
       smallImage.classList.add('small-image');
       leftContent.appendChild(smallImage);
+
+      let unOrdenedLi = document.createElement('ul');
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index = 0; index < numbers.length; index += 1) {
+        let li = document.createElement('li');
+        li.innerText = numbers[index]
+        unOrdenedLi.appendChild(li);
+      }
+      rightContent.appendChild(unOrdenedLi);
       
     </script>
   </body>
