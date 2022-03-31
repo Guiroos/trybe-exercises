@@ -54,9 +54,12 @@ article{
 }
 
 .container-facts h2{
-    font-size: 40px;
     padding-bottom: 20px;
     padding-left: 40px;
+}
+
+.container-facts h2{
+    font-size: 40px;
 }
 
 .main-info{
@@ -96,22 +99,17 @@ article{
     margin-left: 1000px;
 }
 
-caption{
-    font-size: 40px;
-}
-
 table{
     width: 25%;
     position: relative;
     border: solid 2px;
-    left: 100px;
+    left: 340px;
     font-size: 20px;
 }
 
 td{
     text-align: center;
     padding-bottom: 5px;
-    padding-left: 10px;
     width: 50px;
 }
 

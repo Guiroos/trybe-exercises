@@ -2,7 +2,7 @@
 
 function biggerName (name) {
   let biggerIndex = 0;
-  for (let index in name) {
+  for (index in name) {
     if (name[biggerIndex].length < name[index].length) {
       biggerIndex = index;      
     }
@@ -13,13 +13,13 @@ function biggerName (name) {
 console.log(biggerName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 function maiorPalavra(palavras) {
-  let maiorNome = palavras[0];
+  let maiorPalavra = palavras[0];
   for (let indice in palavras) {
-    if (maiorNome.length < palavras[indice].length) {
-      maiorNome = palavras[indice];
+    if (maiorPalavra.length < palavras[indice].length) {
+      maiorPalavra = palavras[indice];
     }
   }
-  return maiorNome;
+  return maiorPalavra;
 }
 
 console.log(maiorPalavra(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])); //Fernanda

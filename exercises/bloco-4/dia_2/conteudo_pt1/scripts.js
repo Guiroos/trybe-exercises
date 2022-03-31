@@ -26,10 +26,8 @@ console.log(pizzas);
 //.sort para deixar em ordem alfabética
 //[n] para receber somente uma posição do array
 
-/* for (let index = 0 ; index < pizzas.length ; index++) {
+for (let index = 0 ; index < pizzas.length ; index++) {
   console.log(pizzas[index])
-} */
-
-for (pizza of pizzas) {
-  console.log(pizza);
 }
+
+

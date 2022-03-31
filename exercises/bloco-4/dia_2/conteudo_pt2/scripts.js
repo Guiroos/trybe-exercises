@@ -1,22 +1,22 @@
-let numero = 7;
+var numero = 7;
 let taboada = [];
 
-for (let index = 1 ; index <= 9 ; index += 1) {
+for (let index = 1 ; index <= 9 ; index++) {
+  console.log("")
+  console.log(numero * index);
+}
+
+/* for (let index = 1 ; index <= 9 ; index++) {
   numeroMultiplicado = numero * index;
   taboada.push(numeroMultiplicado);
 }
 
-console.log(taboada);
+console.log(taboada); */
 
-const listaDeNomes = ["Joana", "Maria", "Lucas"];
+var listaDeNomes = ["Joana", "Maria", "Lucas"];
 
-/* for (var index = 0; index < listaDeNomes.length; index++){
+for (var index = 0; index < listaDeNomes.length; index++){
   var mensagem = "Boas vindas, " + listaDeNomes[index] + "!";
-  console.log(mensagem);
-} */
-
-for (let names of listaDeNomes) {
-  let mensagem = `Boas vindas ${names}!`
   console.log(mensagem);
 }
 

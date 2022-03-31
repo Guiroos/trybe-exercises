@@ -25,9 +25,9 @@ for (let letter of word) {
 
 
 let arrOfNumbers = [10, 20, 30];
-for (let number of arrOfNumbers) {
-  number += 1;
-  console.log(number);
+for (let sum of arrOfNumbers) {
+  sum += 1;
+  console.log(sum);
 }
 // 11
 // 21
