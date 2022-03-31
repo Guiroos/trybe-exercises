@@ -234,11 +234,11 @@ else if (salarioBase > 1903.99 && salarioBase < 2826.65) {
   salarioLiquido = (salarioBase * 0.925) + 142.8;
   console.log("Seu salário líquido será " + "R$" + salarioLiquido);
 }
-else if (salarioBase > 2826.66 && salarioBase < 3751,05) {
+else if (salarioBase > 2826.66 && salarioBase < 3751.05) {
   salarioLiquido = (salarioBase * 0.85) + 354.8;
   console.log("Seu salário líquido será " + "R$" + salarioLiquido);
 }
-else if (salarioBase > 3751,06 && salarioBase < 4664.68) {
+else if (salarioBase > 3751.06 && salarioBase < 4664.68) {
   salarioLiquido = (salarioBase * 0.775) + 636.13;
   console.log("Seu salário líquido será " + "R$" + salarioLiquido);
 }
