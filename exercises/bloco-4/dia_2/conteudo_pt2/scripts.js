@@ -1,5 +1,6 @@
 let numero = 7;
 let taboada = [];
+let numeroMultiplicado = 0;
 
 for (let index = 1 ; index <= 9 ; index += 1) {
   numeroMultiplicado = numero * index;

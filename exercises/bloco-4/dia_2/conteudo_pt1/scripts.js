@@ -30,6 +30,6 @@ console.log(pizzas);
   console.log(pizzas[index])
 } */
 
-for (pizza of pizzas) {
+for (let pizza of pizzas) {
   console.log(pizza);
 }
