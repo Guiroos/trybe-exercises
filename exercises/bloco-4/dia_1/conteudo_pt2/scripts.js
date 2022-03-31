@@ -1,5 +1,5 @@
 const age = 20;
-let name = "Hulk";
+let nome = "Hulk";
 
 console.log(age);
-console.log(name);
+console.log(nome);
